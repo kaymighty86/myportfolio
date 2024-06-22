@@ -1,54 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
-        <script src="./scriptsloader.js?ver=2" type="text/Javascript"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="./stylev4.css" rel="stylesheet" type="text/css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/136d8a3d16.js" crossorigin="anonymous"></script>
-        <link href="./img/PBSK_website_icon.png" rel="icon" type="image/x-icon">
+        <script defer src="./appv2.js" type="text/Javascript"></script>
+        <script defer src="./projectsLoader.js" type="text/Javascript"></script>
+        <link href="./img/PBSK_website_icon.png" rel="icon" type="image/x-icon" />
         <title>Projects by Kay</title>
     </head>
     <body>
+        <div id="plastered_back_image"></div>
         <header id="main_heading_section">
             <div id="header_section">
                 <div id="header_main_title_container">
-                    <p style="text-decoration: overline;">Web Dev. Projects by</p>
+                    <p style="text-decoration: overline;">Projects by</p>
                     <p>Simeon Olukayode Adeoye (Kay)</p>
                 </div>
                 <div id="header_graphic_shapes_container">
-                    <img class="header_graphic_blob_obj" src="./img/header-right-blub.svg" alt="blob vector image" width="600px">
-                    <img class="header_circle_obj" src="./img/circle-vect-img.svg" alt="circle vector Image" width="100px">
-                    <img class="header_graphic_gear_obj header_graphic_gear_r" src="./img/gear-vect.svg" alt="gear vector image" width="256px">
-                    <img class="header_graphic_gear_obj header_graphic_gear_l" src="./img/gear-vect.svg" alt="gear vector image" width="256px">
+                    <img class="header_graphic_blob_obj" src="./img/header-right-blob.svg" alt="blob vector image" width="600px">
+                    <img class="header_graphic_blob_obj" src="./img/header-right-blob2.svg" alt="blob vector image" width="600px">
                 </div>
             </div>
             <nav id="navigation_section">
                 <div id="top_mirrored_wavey_svg"></div>
                 <div id="nav_items_container">
                     <ul>
-                        <li><a href="#projects_section"><i class="fa-solid fa-briefcase"></i> Projects</a></li>
-                        <li><a href="mailto:kaymighty86@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i> Contact</a></li>
-                        <li><a href="https://github.com/kaymighty86?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a></li>
-                        <li><a href="https://www.linkedin.com/in/kayode-adeoye-6a88a7121/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+                        <li><a href="#projects_section"><i class="fa-solid fa-briefcase"></i> <span>Projects</span></a></li>
+                        <li><a href="mailto:kaymighty86@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i> <span>Contact</span></a></li>
+                        <li><a href="https://github.com/kaymighty86?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i> <span>GitHub</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/kayode-adeoye-6a88a7121/" target="_blank"><i class="fa-brands fa-linkedin"></i> <span>LinkedIn</span></a></li>
                     </ul>
                 </div>
             </nav>
         </header>
-        <div id="plastered_back_image"></div>
         <section id="prebody_quote_section">
-            <p class="body_text white_text centered_text">Hi! I'm Kay.</p>
-            <p class="body_text white_text centered_text">A solution-driven front-end Web Developer with years of programming experience within various sectors of the I.T industry.</p>
+            <p class="body_text centered_text white_text">Hi! I'm Kay<br>(Simeon Olukayode Adeoye).</p>
+            <p class="body_text centered_text white_text">An insightful, broad-skilled, solution-driven Frontend Web Developer with over 4 years of working experience. Welcome to my portfolio!</p>
             <div class="quote_section_snowman_icon"><i class="fa-solid fa-person-snowboarding"></i></div>
         </section>
         <section id="projects_section">
             <h3 class="sub_title purple_text sub_title_purple_border">PROJECTS</h3>
             <div id="projects_list_container">
-                <div id="projects_list_inner_container">
-
+                <div id="projects_list_inner_container"><!--PROJECTS GO HERE-->
+                    <div id="projects_loading">
+                        <img src="./img/forklift-icon.png" alt="loading icon"/>
+                        <h2>Loading Projects. Please wait...</h2>
+                    </div>
                 </div>
-                <!--PROJECTS GO HERE-->
+                
             </div>
         </section>
         <section id="about_section">
@@ -63,19 +67,18 @@
                 </div>
                 <div id="professonal_summary_wrapper">
                     <!-- <h3 class="secondL_sub_title white_text">SUMMARY</h3> -->
-                    <p class="body_text centered_text white_text">Insightful, broad-skilled, solution-driven programmer with over 5 years of programming 
-                        experience within the various sectors of the IT industry. Excels at making use of various technologies and tools to efficiently 
-                        develop intuitive, scalable, optimised, and user-friendly web applications. Able to efficiently handle every aspect of client-side 
-                        application development.</p>
+                    <p class="body_text centered_text white_text">Insightful, broad-skilled, solution-driven Frontend Web Developer with over 4 years of working experience 
+                        within the ICT industry. Excels at making use of various frameworks, programming languages and tools (e.g. React, HTML, CSS, JavaScript, etc.) to 
+                        efficiently develop intuitive, scalable, optimised, and user-friendly web applications. Passionate about learning and development with a desire to 
+                        apply skills on more complex problems and continue to find ways to maximise efficiency.</p>
                     <br>
                     <br>
-                    <h3 class="secondL_sub_title white_text">Front-End Skills</h3>
+                    <h3 class="secondL_sub_title white_text">Tech Stack</h3>
                     <ul type="none" id="skills_list">
-                        <li class="body_text white_text">HTML</li>
+                        <li class="body_text white_text">React</li>
                         <li class="body_text white_text">Javascript</li>
-                        <li class="body_text white_text">React JS</li>
+                        <li class="body_text white_text">HTML</li>
                         <li class="body_text white_text">CSS</li>
-                        <li class="body_text white_text">ES6</li>
                         <li class="body_text white_text">JQuery</li>
                         <li class="body_text white_text">GIT</li>
                         <li class="body_text white_text">Adobe Illustrator</li>

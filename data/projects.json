@@ -1,0 +1,74 @@
+[
+    {
+        "project_name": "Projects Management App",
+        "project_description": "A project management application that allows creation and monitoring of projects, and planning of tasks for every project.",
+        "project_image_url": "./img/Projects Screenshot/project-management-app3.png",
+        "project_page_url": "../project-management-app"
+    },
+    {
+        "project_name": "Travel Destination Planner",
+        "project_description": "Choose places you'll like to visit from a list of beautiful and fun-filled possible destinations.",
+        "project_image_url": "./img/Projects Screenshot/travel-destination-planner2.png",
+        "project_page_url": "../travel-destinations"
+    },
+    {
+        "project_name": "Expenses Tracker",
+        "project_description": "Manage and track your monthly or yearly expenses with this awesome application.",
+        "project_image_url": "./img/Projects Screenshot/expenses-tracker.png",
+        "project_page_url": "../expenses-tracker"
+    },
+    {
+        "project_name": "Rumble AI Chat",
+        "project_description": "An AI Virtual Assistant powered by ChatGPT. A Virtual Assistant able to hold a conversation and answer most of the questions you can think of.",
+        "project_image_url": "./img/Projects Screenshot/rumble-ai-screenshot 2.png",
+        "project_page_url": "../rumble-ai-chat"
+    },
+    {
+        "project_name": "Parfait Joint",
+        "project_description": "An intuitive, user-friendly, responsive web-shop template with a beautiful Parfait Shop Theme.",
+        "project_image_url": "./img/Projects Screenshot/parfait-shop-screenshot.PNG",
+        "project_page_url": "../parfait-joint"
+    },
+    {
+        "project_name": "Investment Calculator",
+        "project_description": "Compute your investment projections with this sofisticated application.",
+        "project_image_url": "./img/Projects Screenshot/investment-calculator.png",
+        "project_page_url": "../investment-calculator"
+    },
+    {
+        "project_name": "React Quiz App",
+        "project_description": "Test your knowledge of the React Framework.",
+        "project_image_url": "./img/Projects Screenshot/react-quiz-app.PNG",
+        "project_page_url": "../react-quiz-app"
+    },
+    {
+        "project_name": "Vegan Store",
+        "project_description": "A modern, detailed, light-weight informative-type website with a Vegan store theme",
+        "project_image_url": "./img/Projects Screenshot/vegan-store-screenshot.PNG",
+        "project_page_url": "../vegan-store"
+    },
+    {
+        "project_name": "Data Collector",
+        "project_description": "Interract with a cute data collector.",
+        "project_image_url": "./img/Projects Screenshot/data-collector.png",
+        "project_page_url": "../user-details-collector"
+    },
+    {
+        "project_name": "Virtual Calculator",
+        "project_description": "A calculator able to perform basic arithmetic operations like your regular grocery store calculator!",
+        "project_image_url": "./img/Projects Screenshot/awesome-calculator-screenshot-2.PNG",
+        "project_page_url": "../awesome-calculator"
+    },
+    {
+        "project_name": "Mini Beat Maker",
+        "project_description": "A responsive mini beat/sound player that allows you play around with sound with your physical keyboard keys.",
+        "project_image_url": "./img/Projects Screenshot/mini-beat-screenshot.PNG",
+        "project_page_url": "../mini-beat-maker"
+    },
+    {
+        "project_name": "Fragile Glass",
+        "project_description": "Ease your stress by playing around wth a pet glass :) It doesn't like you touching it though.",
+        "project_image_url": "./img/Projects Screenshot/fragile-glass-screenshot.PNG",
+        "project_page_url": "../fragile-glass"
+    }
+]
