@@ -12,16 +12,16 @@
         "project_page_url": "../travel-destinations"
     },
     {
+        "project_name": "General Chat App",
+        "project_description": "A chat application template. It demonstrates sender and receiver messaging functionality",
+        "project_image_url": "./img/Projects Screenshot/general-chat-app.png",
+        "project_page_url": "../general-chat-app"
+    },
+    {
         "project_name": "Expenses Tracker",
         "project_description": "Manage and track your monthly or yearly expenses with this awesome application.",
         "project_image_url": "./img/Projects Screenshot/expenses-tracker.png",
         "project_page_url": "../expenses-tracker"
-    },
-    {
-        "project_name": "Rumble AI Chat",
-        "project_description": "An AI Virtual Assistant powered by ChatGPT. A Virtual Assistant able to hold a conversation and answer most of the questions you can think of.",
-        "project_image_url": "./img/Projects Screenshot/rumble-ai-screenshot 2.png",
-        "project_page_url": "../rumble-ai-chat"
     },
     {
         "project_name": "Parfait Joint",
